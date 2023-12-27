@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Version>1.5.1</Version>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<InternalsVisibleTo Include="UltraWS.UnitTests" />
+		<InternalsVisibleTo Include="UltraWS.IntegrationTests" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="ConcurrentHashSet" Version="1.3.0" />
+	</ItemGroup>
+
+</Project>

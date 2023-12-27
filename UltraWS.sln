@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UltraWS", "src\UltraWS\UltraWS.csproj", "{020040EA-04C4-4DEB-A78D-94E20DE771FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{137EB760-7828-4770-B6BF-F9E7377DEA36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{45294F0F-3848-486D-85BA-798540112BB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UltraWS.UnitTests", "tests\UltraWS.UnitTests\UltraWS.UnitTests.csproj", "{4048B893-ADE7-41B0-A75B-E8A644430C5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UltraWS.IntegrationTests", "tests\UltraWS.IntegrationTests\UltraWS.IntegrationTests.csproj", "{7E9F02BA-B32B-4FE4-BB98-97EBBD8E551E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{020040EA-04C4-4DEB-A78D-94E20DE771FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{020040EA-04C4-4DEB-A78D-94E20DE771FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{020040EA-04C4-4DEB-A78D-94E20DE771FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{020040EA-04C4-4DEB-A78D-94E20DE771FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4048B893-ADE7-41B0-A75B-E8A644430C5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4048B893-ADE7-41B0-A75B-E8A644430C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4048B893-ADE7-41B0-A75B-E8A644430C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4048B893-ADE7-41B0-A75B-E8A644430C5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E9F02BA-B32B-4FE4-BB98-97EBBD8E551E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E9F02BA-B32B-4FE4-BB98-97EBBD8E551E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E9F02BA-B32B-4FE4-BB98-97EBBD8E551E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E9F02BA-B32B-4FE4-BB98-97EBBD8E551E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{020040EA-04C4-4DEB-A78D-94E20DE771FA} = {137EB760-7828-4770-B6BF-F9E7377DEA36}
+		{4048B893-ADE7-41B0-A75B-E8A644430C5F} = {45294F0F-3848-486D-85BA-798540112BB9}
+		{7E9F02BA-B32B-4FE4-BB98-97EBBD8E551E} = {45294F0F-3848-486D-85BA-798540112BB9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EB06CD4-843D-4739-9E88-756A966564CA}
+	EndGlobalSection
+EndGlobal
